@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Qualcomm Augmented Reality/Scripts/DefaultTrackableEventHandler.cs">
+    <Files>
+      <File FileName="Assets/Qualcomm Augmented Reality/Scripts/DefaultTrackableEventHandler.cs" Line="75" Column="22" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/bgudino/Documents/Repositorios/UNITY/Hello_world/New Unity Project/Assets/Qualcomm Augmented Reality/Scripts/DefaultTrackableEventHandler.cs" line="77" />
+      <Breakpoint file="/Users/bgudino/Documents/Repositorios/UNITY/Hello_world/New Unity Project/Assets/Qualcomm Augmented Reality/Scripts/DefaultTrackableEventHandler.cs" line="83" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
