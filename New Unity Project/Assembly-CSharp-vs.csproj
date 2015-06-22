@@ -46,7 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ButtonOnOffBehaviourScript.cs" />
      <Compile Include="Assets\ButtonPrincipalScript.cs" />
+     <Compile Include="Assets\CloseBehaviourScript.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\BackgroundPlaneBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CloudRecoBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CylinderTargetBehaviour.cs" />
@@ -83,6 +85,7 @@
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WireframeBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WireframeTrackableEventHandler.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WordBehaviour.cs" />
+     <Compile Include="Assets\TweetBehaviourScript.cs" />
      <None Include="Assets\StreamingAssets\QCAR\LivePackDB.xml" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\link.xml" />

@@ -17,7 +17,7 @@ namespace Vuforia
         #region PRIVATE_MEMBER_VARIABLES
  
         private TrackableBehaviour mTrackableBehaviour;
-
+		//private Renderer[] pantallaDosComponents;
 		private string texto= "No entro";
 		private int cantidad=0;
         #endregion // PRIVATE_MEMBER_VARIABLES
@@ -33,6 +33,7 @@ namespace Vuforia
             {
                 mTrackableBehaviour.RegisterTrackableEventHandler(this);
             }
+
         }
 
         #endregion // UNTIY_MONOBEHAVIOUR_METHODS
@@ -63,8 +64,7 @@ namespace Vuforia
 
         #endregion // PUBLIC_METHODS
 
-
-
+	
         #region PRIVATE_METHODS
 
 
@@ -76,25 +76,24 @@ namespace Vuforia
             // Enable rendering:
             foreach (Renderer component in rendererComponents)
             {
-				component.enabled = true;
-				if(component.CompareTag("pantallaDos")){
+
+				if(component.CompareTag("inicial")){
 					texto = "entro";
 					cantidad++;
-					component.enabled=false;
+					component.enabled=true;
+
 				}
-
-
 			
             }
 
             // Enable colliders:
             foreach (Collider component in colliderComponents)
             {
-                component.enabled = true;
-				if(component.CompareTag("pantallaDos")){
+               
+				if(component.CompareTag("inicial")){
 					texto = "entro";
 					cantidad++;
-					component.enabled=false;
+					component.enabled=true;
 				}
             }
 

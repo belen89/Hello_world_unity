@@ -6,13 +6,8 @@ namespace Vuforia
 	public class ButtonPrincipalScript : MonoBehaviour {
 
 		// Use this for initialization
-		private GameObject baseObject;
-		private GameObject pack;
-		private string nameObject;
-		private Renderer[] rendererComponents;
 
 		void Start () {
-			nameObject = this.gameObject.name;
 
 
 	}
@@ -29,24 +24,25 @@ namespace Vuforia
 
 			foreach (Renderer component in rendererComponents)
 			{
-				component.enabled = false;
-				if(component.CompareTag("pantallaDos")){
-					component.enabled=true;
-					
-				}
 
+				Debug.Log(component.tag);
+				if(component.CompareTag("pantallaFiesta")|| component.CompareTag("close"))
+					component.enabled=true;
+				else
+					component.enabled=false;
+				
+				
 			}
 			
 			// Enable colliders:
 			foreach (Collider component in colliderComponents)
 			{
-				component.enabled = false;
-				if(component.CompareTag("pantallaDos")){
-
+				if(component.CompareTag("pantallaFiesta")|| component.CompareTag("close"))
 					component.enabled=true;
-				}
+				else
+					component.enabled=false;
 			}
-			Debug.Log ("Se agrego el video"); 
+
 		}
 	}
 }

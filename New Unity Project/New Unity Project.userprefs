@@ -1,14 +1,18 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Qualcomm Augmented Reality/Scripts/DefaultTrackableEventHandler.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/TweetBehaviourScript.cs">
     <Files>
-      <File FileName="Assets/Qualcomm Augmented Reality/Scripts/DefaultTrackableEventHandler.cs" Line="75" Column="22" />
+      <File FileName="Assets/ButtonPrincipalScript.cs" Line="41" Column="1" />
+      <File FileName="Assets/ButtonOnOffBehaviourScript.cs" Line="33" Column="4" />
+      <File FileName="Assets/CloseBehaviourScript.cs" Line="23" Column="1" />
+      <File FileName="Assets/TweetBehaviourScript.cs" Line="23" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/bgudino/Documents/Repositorios/UNITY/Hello_world/New Unity Project/Assets/Qualcomm Augmented Reality/Scripts/DefaultTrackableEventHandler.cs" line="77" />
-      <Breakpoint file="/Users/bgudino/Documents/Repositorios/UNITY/Hello_world/New Unity Project/Assets/Qualcomm Augmented Reality/Scripts/DefaultTrackableEventHandler.cs" line="83" />
+      <Breakpoint file="/Users/bgudino/Documents/Repositorios/UNITY/Hello_world/New Unity Project/Assets/ButtonOnOffBehaviourScript.cs" line="27" />
+      <Breakpoint file="/Users/bgudino/Documents/Repositorios/UNITY/Hello_world/New Unity Project/Assets/ButtonOnOffBehaviourScript.cs" line="38" />
+      <Breakpoint file="/Users/bgudino/Documents/Repositorios/UNITY/Hello_world/New Unity Project/Assets/ButtonPrincipalScript.cs" line="41" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
