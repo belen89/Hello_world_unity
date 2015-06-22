@@ -1,3 +1,85 @@
 Base path: /Applications/Unity/Unity.app/Contents
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-2-461389824
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-2-677060608
 Cmd: getPlatforms
+Cmd: compileSnippet
+  api=9 type=0 insize=982 outsize=16485 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=982 outsize=19296 kw=DIRECTIONAL SHADOWS_SCREEN SHADOWS_NATIVE LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=982 outsize=7 kw=DIRECTIONAL SHADOWS_SCREEN SHADOWS_NATIVE LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=938 outsize=14268 kw=DIRECTIONAL SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=938 outsize=17236 kw=SPOT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=938 outsize=18316 kw=SPOT SHADOWS_DEPTH SHADOWS_NATIVE ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=938 outsize=17475 kw=POINT_COOKIE SHADOWS_CUBE ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=938 outsize=18495 kw=POINT SHADOWS_CUBE SHADOWS_SOFT ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=938 outsize=15536 kw=DIRECTIONAL SHADOWS_SCREEN SHADOWS_NATIVE ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=938 outsize=7 kw=DIRECTIONAL SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=938 outsize=7 kw=SPOT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=938 outsize=7 kw=DIRECTIONAL_COOKIE SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=938 outsize=7 kw=POINT SHADOWS_CUBE ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=938 outsize=7 kw=SPOT SHADOWS_DEPTH SHADOWS_SOFT SHADOWS_NATIVE ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=938 outsize=7 kw=POINT_COOKIE SHADOWS_CUBE SHADOWS_SOFT ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=938 outsize=7 kw=DIRECTIONAL_COOKIE SHADOWS_SCREEN SHADOWS_NATIVE ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=751 outsize=7496 kw=SHADOWS_CUBE ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=751 outsize=7 kw=SHADOWS_CUBE ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=1152 outsize=14817 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF UNITY_HDR_ON ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=1152 outsize=7 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF UNITY_HDR_ON ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=886 outsize=14891 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=886 outsize=16374 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=886 outsize=16185 kw=DIRECTIONAL SHADOWS_SCREEN SHADOWS_NATIVE LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=886 outsize=7 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=886 outsize=7 kw=DIRECTIONAL SHADOWS_SCREEN SHADOWS_NATIVE LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=816 outsize=15340 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=816 outsize=16276 kw=SPOT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=816 outsize=14685 kw=DIRECTIONAL_COOKIE SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=816 outsize=17278 kw=SPOT SHADOWS_DEPTH SHADOWS_NATIVE ok=1
+Cmd: compileSnippet
+  api=5 type=0 insize=816 outsize=6699 kw=DIRECTIONAL_COOKIE SHADOWS_SCREEN ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=816 outsize=16434 kw=POINT_COOKIE SHADOWS_CUBE ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=816 outsize=15703 kw=DIRECTIONAL_COOKIE SHADOWS_SCREEN SHADOWS_NATIVE ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=816 outsize=7 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=816 outsize=7 kw=SPOT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=816 outsize=7 kw=DIRECTIONAL_COOKIE SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=816 outsize=7 kw=SPOT SHADOWS_DEPTH SHADOWS_NATIVE ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=816 outsize=7 kw=POINT SHADOWS_CUBE ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=816 outsize=7 kw=DIRECTIONAL SHADOWS_SCREEN SHADOWS_NATIVE ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=816 outsize=7 kw=DIRECTIONAL_COOKIE SHADOWS_SCREEN SHADOWS_NATIVE ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=600 outsize=6550 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=600 outsize=7 kw=SHADOWS_CUBE ok=1

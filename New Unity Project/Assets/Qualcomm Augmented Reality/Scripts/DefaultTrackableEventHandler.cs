@@ -17,7 +17,9 @@ namespace Vuforia
         #region PRIVATE_MEMBER_VARIABLES
  
         private TrackableBehaviour mTrackableBehaviour;
-    
+
+		private string texto= "No entro";
+		private int cantidad=0;
         #endregion // PRIVATE_MEMBER_VARIABLES
 
 
@@ -74,16 +76,29 @@ namespace Vuforia
             // Enable rendering:
             foreach (Renderer component in rendererComponents)
             {
-                component.enabled = true;
+				component.enabled = true;
+				if(component.CompareTag("pantallaDos")){
+					texto = "entro";
+					cantidad++;
+					component.enabled=false;
+				}
+
+
+			
             }
 
             // Enable colliders:
             foreach (Collider component in colliderComponents)
             {
                 component.enabled = true;
+				if(component.CompareTag("pantallaDos")){
+					texto = "entro";
+					cantidad++;
+					component.enabled=false;
+				}
             }
 
-            Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
+            Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found "+ texto + ": " +cantidad);
         }
 
 
