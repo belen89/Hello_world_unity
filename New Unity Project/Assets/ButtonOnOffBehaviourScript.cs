@@ -19,16 +19,16 @@ namespace Vuforia{
 			
 			Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
 			Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
+			GameObject[] objetosAEsconder = GameObject.FindGameObjectsWithTag ("inicial");
+			GameObject.FindGameObjectWithTag ("close").GetComponent<Renderer> ().enabled = true;
 			
 			foreach (Renderer component in rendererComponents)
 			{
-
 				if(component.CompareTag("pantallaDos")|| component.CompareTag("close"))
 					component.enabled=true;
 				else
 					component.enabled=false;
-				
-				
+							
 			}
 			
 			// Enable colliders:
@@ -39,6 +39,15 @@ namespace Vuforia{
 				else
 					component.enabled=false;
 			}
+
+			//Desable elements from fisrt screen
+
+			foreach (GameObject objeto in objetosAEsconder)
+				objeto.GetComponent<Renderer> ().enabled = false;
+
+				
+
+
 			
 		}
 }
